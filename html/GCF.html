@@ -1,0 +1,27 @@
+<html><head>
+<title>GCF</title>
+</head>
+<body>
+<h1>GCF</h1>
+<p>This is my GCF program in html</p>
+ <label>First number:</label>
+  <input type="text" id="x" name="x"><br><br>
+ <label>Second number:</label>
+<input type="text" id="y" name="y"><br><br>
+<button onclick="GCF()">Compute</button>
+<p id="Answer">20</p>
+<script>
+function GCF() {
+var x = document.getElementById("x").value;
+x = parseInt(x);
+var y = document.getElementById("y").value;
+y = parseInt(y);
+var r = y%x;
+for (var i = x; r!=0; y=i, i=r, r=y%i) {
+}
+document.getElementById("Answer").innerHTML = i;
+} 
+</script>
+
+
+</body></html>

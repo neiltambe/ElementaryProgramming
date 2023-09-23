@@ -1,0 +1,26 @@
+<html><head>
+<title>LCM</title>
+</head>
+<body>
+<h1>LCM</h1>
+<p>This is my LCM program in html</p>
+ <label>First number:</label>
+  <input type="text" id="x" name="x"><br><br>
+ <label>Second number:</label>
+<input type="text" id="y" name="y"><br><br>
+<button onclick="LCM()">Compute</button>
+<p id="Answer"></p>
+<script>
+function LCM() {
+var x = document.getElementById("x").value;
+x = parseInt(x);
+var y = document.getElementById("y").value;
+y = parseInt(y);
+for (var a = 1; (x*a)%y!=0; a++) {
+}
+document.getElementById("Answer").innerHTML = x*a;
+} 
+</script>
+
+
+</body></html>
