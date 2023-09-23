@@ -2,6 +2,11 @@
 
 This my first Github repository so don't judge.
 
+## My html programs
+[LCM](html/LCM.html)
+[GCF](html/GCF.html)
+
+
 ## My Khan Academy Programs
 
 ### Keyboard program
