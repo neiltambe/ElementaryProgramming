@@ -17,4 +17,5 @@ t.forward(length)
 t.left(90)
 
 t.forward(width)
+t.left
 
