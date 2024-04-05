@@ -1,12 +1,14 @@
 #boy_turtle_drawing.py
 
 import turtle
-
+import time
 t = turtle.Turtle()
 
 radius = int(input("Enter radius of my Circle"))
 length = int(input("Enter length of my Rectangle"))
 width = int(input("Enter width of my Rectangle"))
+
+time.sleep(30) 
 
 t.circle(radius)
 
@@ -20,6 +22,7 @@ t.left(90)
 
 t.forward(length)
 t.left(90)
+ 
 
 t.forward(width)
 t.right(90)
